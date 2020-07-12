@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en_us">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>JavaScript Time Challenge</title>
+    </head>
+    
+    <body>
+        <header id="pageTitle" class="page-title">
+            <h1>
+                <span> JavaScript Timing Challenge </span>
+            </h1>
+        </header>
+        <main class="content">
+            <div>
+                <summary class="panel info">
+                    My JavaScript knowledge is nothing to write home about and my next live project will have numerous javascript functionality applied on the frontend. I therefore accepted this challenge to help me on the long run.
+                    <span class="close-btn" onclick="this.parentElement.style.display = 'none';" title="Close">&times;</span>
+                </summary>
+            </div>
+            <div class="container">
+                Wondering how I spend my day? Well the image below will capture my day vividly. How I spend my morning, afternoon, night and then the rest of the day.
+            </div>
+            <div class="container">
+                <div id="showActivity">
+                    <div class="panel resp-image">
+                        <div id="showImage">
+                            <!-- <img src="images/all_time.jpg" alt="My normal image when not eating">-->
+                        </div>
+                        <div id="descText" class="bottom-left">
+                            <!--My Normal Day-->
+                        </div>
+                    </div>
+                    <div id="fullDesc" class="container">
+                        On a normal, I spend quality time with my family, friends and loved ones. This is the time I get to learn about new technologies too. What to program, news, tech, social media and even Slack Workspace get my time at these moments.
+                    </div>
+                </div>
+                <div class="padded-container text-center">
+                    <time id="showTime" class="center-box"></time>
+                    <span class="timeDesc btm-bar-small">Current Time</span>
+                </div>
+                <div class="padded-container text-center">
+                    <time id="timeLeft" class="center-box"></time>
+                    <span class="timeLeftDesc btm-bar-small">Next Image Time</span>
+                </div>
+            </div>
+        </main>
+        <footer>
+            &copy; <span id="year"></span>, Festus Ali. Some rights reserved.
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>
